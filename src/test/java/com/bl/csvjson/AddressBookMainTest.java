@@ -77,5 +77,24 @@ public class AddressBookMainTest {
         Assert.assertEquals(3,count);
 
     }
+    @Test
+    public void write_Into_CSV_File() throws IOException {
+        Contact user1= new Contact("Sundar  ", "Pichai", "kol", "kolkata","wb","700026","9087655","abc@gmailcom");
+        Contact user2=new Contact("Mayuri","Dey","lmao","kol","wb","700089","8961388960","abcd@gmail.com");
+        Contact user3=new Contact("Nayanika","Guha","lmao","kol","wb","700096","8961377900","abcdef@gmail.com");
+        ArrayList<Contact> users= new ArrayList<>();
+        users.add(user1);
+        users.add(user2);
+        users.add(user3);
+        int count=AddressBookMain.writeCsv(users);
+        Assert.assertEquals(3,count);
+
+    }
+    @Test
+    public void read_when_done() throws IOException {
+        int count=AddressBookMain.readCsv();
+        Assert.assertEquals(2,count);
+
+    }
 
 }

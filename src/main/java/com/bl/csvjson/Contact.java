@@ -49,7 +49,60 @@ import com.opencsv.bean.CsvBindByName;
         {
             return firstname;
         }
+
+        public String getFirstname() {
+            return firstname;
+        }
+
+        public String getLastname() {
+            return lastname;
+        }
+
+        public String getAddress() {
+            return address;
+        }
+
+        public String getNumber() {
+            return number;
+        }
+
+        public String getEmail() {
+            return email;
+        }
+
         public String getZip(){return zip;}
+
+        public void setFirstname(String firstname) {
+            this.firstname = firstname;
+        }
+
+        public void setLastname(String lastname) {
+            this.lastname = lastname;
+        }
+
+        public void setAddress(String address) {
+            this.address = address;
+        }
+
+        public void setCity(String city) {
+            this.city = city;
+        }
+
+        public void setState(String state) {
+            this.state = state;
+        }
+
+        public void setZip(String zip) {
+            this.zip = zip;
+        }
+
+        public void setNumber(String number) {
+            this.number = number;
+        }
+
+        public void setEmail(String email) {
+            this.email = email;
+        }
 
         @Override
         public String toString() {
