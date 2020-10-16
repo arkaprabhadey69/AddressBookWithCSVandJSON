@@ -70,7 +70,7 @@ public class AddressBookMain {
 
     //Method to write to a CSV File
     public static int writeCsv(ArrayList<Contact> c) throws IOException {
-        int i = 0;
+        int count = 0;
         try (
                 Writer writer = Files.newBufferedWriter(Paths.get("csvcontacts.csv"));
         ) {
@@ -81,7 +81,7 @@ public class AddressBookMain {
             ArrayList<Contact> myUsers = new ArrayList<>();
             for (Contact user : c) {
                 myUsers.add(user);
-                i++;
+                count++;
             }
             beanToCsv.write(myUsers);
         } catch (CsvRequiredFieldEmptyException e) {
@@ -89,7 +89,7 @@ public class AddressBookMain {
         } catch (CsvDataTypeMismatchException e) {
             e.printStackTrace();
         }
-        return i;
+        return count;
 
     }
     //Method of reading from a CSV file
