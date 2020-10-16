@@ -1,0 +1,3 @@
+Contact{firstname='Arka', lastname='Dey', address='lmao', city='kol', state='wb', zip='700026', number='8961377960', email='abc@gmail.com'}
+Contact{firstname='Mayuri', lastname='Dey', address='lmao', city='kol', state='wb', zip='700089', number='8961388960', email='abcd@gmail.com'}
+Contact{firstname='Nayanika', lastname='Guha', address='lmao', city='kol', state='wb', zip='700096', number='8961377900', email='abcdef@gmail.com'}

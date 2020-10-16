@@ -1,0 +1,22 @@
+[
+  {
+    "firstname": "John",
+    "lastname": "Doe",
+    "address": "lmao",
+    "city": "kol",
+    "state": "wb",
+    "zip": "700026",
+    "number": "78906543",
+    "email": "tom.lee@example.com"
+  },
+  {
+    "firstname": "Jack",
+    "lastname": "Doe",
+    "address": "rofl",
+    "city": "kol",
+    "state": "wb",
+    "zip": "700027",
+    "number": "789065437",
+    "email": "tom.lee@example.com"
+  }
+]

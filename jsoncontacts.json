@@ -1,0 +1,32 @@
+[
+  {
+    "firstname": "Sundar  ",
+    "lastname": "Pichai",
+    "address": "kol",
+    "city": "kolkata",
+    "state": "wb",
+    "zip": "700026",
+    "number": "9087655",
+    "email": "abc@gmail,com"
+  },
+  {
+    "firstname": "Mayuri",
+    "lastname": "Dey",
+    "address": "lmao",
+    "city": "kol",
+    "state": "wb",
+    "zip": "700089",
+    "number": "8961388960",
+    "email": "abcd@gmail.com"
+  },
+  {
+    "firstname": "Nayanika",
+    "lastname": "Guha",
+    "address": "lmao",
+    "city": "kol",
+    "state": "wb",
+    "zip": "700096",
+    "number": "8961377900",
+    "email": "abcdef@gmail.com"
+  }
+]

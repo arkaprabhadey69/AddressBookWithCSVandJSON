@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.csvjson.AddressBookMainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T07:54:04" hostname="LAPTOP-JP0FR8LN" time="0.101">
+  <properties/>
+  <testcase name="write_Contacts_Into_JSon" classname="com.bl.csvjson.AddressBookMainTest" time="0.101"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
