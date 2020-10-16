@@ -35,7 +35,6 @@ public class AddressBookMain {
         int size= 0;
         try {
 
-            Gson gson = new Gson();
             Reader reader = Files.newBufferedReader(Paths.get("contacts.json"));
             List<Contact> users = new Gson().fromJson(reader, new TypeToken<List<Contact>>() {
             }.getType());
